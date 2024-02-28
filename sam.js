@@ -257,13 +257,161 @@ Object.defineProperty(exports, "__esModule", { value: true });
 //     console.log('We need to find some users');
 // }
 // Q/32
-var current_users = ['Ali', 'Naeem', 'Sarim', 'Owais', 'Bilal'];
-var new_users = ['Asad', 'Ali', 'Ubaid', 'Qasim', 'Owais'];
-for (var i = 0; i < new_users.length; i++) {
-    if (current_users.includes(new_users[i])) {
-        console.log('the person will need to enter a new username');
+//  const current_users = ['Ali','Naeem','Sarim','Owais','Bilal']
+//  const new_users = ['Asad','Ali','Ubaid','Qasim','Owais']
+// for(let i = 0; i<new_users.length;i++){
+//     if (current_users.includes(new_users[i])) {
+//         console.log('the person will need to enter a new username');
+//     }
+//     else
+//     {
+//         console.log(' The username is available')
+//     }
+// }
+// Q/33
+// const positions = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// for (let i = 0; i < positions.length; i++) {
+//   let ord;
+//   if (i == 0) {
+//     ord = "st";
+//   } else if (i == 2) {
+//     ord = "nd";
+//   } else if (i == 3) {
+//     ord = "rd";
+//   } else {
+//     ord = "th";
+//   }
+//   console.log(`${positions[i]}${ord}`);
+// }
+// Q/34
+// let pizzas = ['Pizza Point','Pizza Max','Pizza Hut']
+// for(let i=0;i<pizzas.length;i++){
+//     console.log(`I like ${pizzas[i]} of pizza`);
+// }
+// console.log('I like really pizza');
+// // Q/35
+// const animals = ['Lion','Tiger','Leopard']
+// for(let i=0;i<animals.length;i++){
+//     console.log(`A ${animals[i]} is a dangerous animal`);
+// }
+// console.log('These three animals are predatory animals');
+// Q/36
+// let make_shirt = (size,sms)=>{
+// console.log(`Size : ${size} | Message : ${sms}`);
+// }
+// make_shirt('24inch','Hello')
+// Q/37
+// let make_shirt = (size = 'large',sms ='I love Typescript')=>{
+// console.log(`Size : ${size} | Message : ${sms}`);
+// }
+// // large shirt
+// make_shirt()
+// // medium shirt
+// make_shirt('Medium','I love Javascript')
+// // small shirt
+// make_shirt('Small','I love Pathon')
+// Q/38
+// let describe_city =(city , country='in pakistan')=>{
+//     console.log(` ${city} ${country}`)
+// }
+// describe_city('Karachi')
+// describe_city('Lahore')
+// describe_city('Islamabad',' is a beautifull city of pakistan')
+// Q/39
+// let city_country = (city,country)=>{
+//     return `${city} ${country}`
+// }
+// let city1 = city_country('karachi', 'pakistan')
+// let city2 = city_country('dehli' ,'india')
+// let city3 = city_country('newyork', 'usa')
+// console.log(city1) ;
+// console.log(city2) ;
+// console.log(city3) ;
+// Q/40
+// function make_album(artist, album_title, num_tracks) {
+//     let album = { artist: artist, album_title: album_title };
+//     if (num_tracks) {
+//         album.num_tracks = num_tracks;
+//     }
+//     return album;
+// }
+// // Making album objects
+// let album1 = make_album("Artist1", "Album1");
+// let album2 = make_album("Artist2", "Album2", 12); // Includes number of tracks
+// let album3 = make_album("Artist3", "Album3");
+// // Printing album objects
+// console.log(album1);
+// console.log(album2);
+// console.log(album3);
+// IS KO DOBARA DEKHNA H
+// Q/41
+// const magicians =['magician1','magician2','magician3']
+// const show_magicians =()=>{
+//     magicians.forEach((data)=>{
+//         console.log(data);
+//     })
+// }
+// show_magicians()
+// Q/42
+// const magicians =['magician1','magician2','magician3']
+// const show_magicians =()=>{
+//     magicians.forEach((data)=>{
+//         console.log(data);
+//     })
+// }
+// const make_magicians = ()=>{
+//     for (let i = 0; i < magicians.length; i++) {
+//         magicians[i] = `The Great ${magicians[i]}`;
+//     }
+// }
+// make_magicians()
+// show_magicians()
+// Q/43
+// const magicians =['magician1','magician2','magician3']
+// function show_magicians(magicians) {
+//     for (let magician of magicians) {
+//         console.log(magician);
+//     }
+// }
+// function make_great(magicians) {
+//     let greatMagicians = [];
+//     for (let magician of magicians) {
+//         greatMagicians.push(`the Great ${magician}`);
+//     }
+//     return greatMagicians;
+// }
+// // Array of magician's names
+// let greatMagicians = make_great([...magicians]);
+// console.log("Original Magicians:");
+// show_magicians(magicians);
+// console.log("\nGreat Magicians:");
+// show_magicians(greatMagicians);
+// Q/44
+// const sendwich =(...data) =>{
+//     console.log("Making a sandwich with:");
+// for(let i = 0;i<data.length;i++){
+//     console.log(data[i]);
+// }
+// }
+// sendwich('turkey','cheeze')
+// sendwich('butter','swiss')
+// sendwich('double butter','jelly')
+// Q/45
+var createcar = function (manufacture, model) {
+    var argu = [];
+    for (var _i = 2; _i < arguments.length; _i++) {
+        argu[_i - 2] = arguments[_i];
     }
-    else {
-        console.log(' The username is available');
+    var car = {
+        manufacture: "".concat(manufacture),
+        model: "".concat(model)
+    };
+    for (var i = 0; i < argu.length; i += 2) {
+        var key = argu[i];
+        var value = argu[i + 1];
+        car[key] = value;
     }
-}
+    return car;
+};
+var mycar = createcar('toyota', 'corolla', 'color', 'blue');
+console.log(mycar);
