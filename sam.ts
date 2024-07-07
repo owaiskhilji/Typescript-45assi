@@ -48,42 +48,42 @@ import { log } from "console";
 
 // Q/9
 
-// let favouriteNum = 7;
+// let favouriteNum:number = 7;
 // console.log("My fourite number is :", favouriteNum);
 
 // Q/10
 // Author :[Muhammad Owais Khilji]
 // Date   : [16 feb 2024] 
-// Q/11
 
-// let arr:string = ["farhan", "asad", "faizan"];
+// Q/11
+// let arr:string[] = ["farhan", "asad", "faizan"];
 // for (let i = 0; i < arr.length; i++) {
 //   console.log(arr[i]);
 // }
 
 // Q/12
 
-// let arr:string = ["farhan", "asad", "faizan"];
+// let arr:string[] = ["farhan", "asad", "faizan"];
 // for (let i = 0; i < arr.length; i++) {
 //   console.log(`Hello ${arr[i]} How are you?`);
 // }
 
 // // Q/13
-// let arr:string = ["Honda", "Suzuki", "Superstar"];
+// let arr:string[] = ["Honda", "Suzuki", "Superstar"];
 // for (let i = 0; i < arr.length; i++) {
 //   console.log(`I would like to own ${arr[i]} bike`);
 // }
 
 // Q/14
 
-// let guests:string = ["Ali", "Ubaid", "Qasim"];
+// let guests:string[] = ["Ali", "Ubaid", "Qasim"];
 // for (let i = 0; i < guests.length; i++) {
 //   console.log(` I invite you to dinner ${guests[i]} `);
 // }
 
 // Q/15
 
-// let guests:string = ["Ali", "Ubaid", "Qasim"];
+// let guests:string[] = ["Ali", "Ubaid", "Qasim"];
 // let removeguest:string = guests.splice(1, 1);
 // let addguest:string = "saleem";
 // guests.push(addguest);
@@ -93,11 +93,11 @@ import { log } from "console";
 
 //  Q/16
 
-// let guests:string = ["Ali", "Ubaid", "Qasim"];
+// let guests:string[] = ["Ali", "Ubaid", "Qasim"];
 // let add:string = "owais";
 // guests.unshift(add);
 // let add2:string = "kareem";
-// let removeguest = guests.splice(2, 0, add2);
+// let removeguest:string = guests.splice(2, 0, add2);
 // let add3:string = "saleem";
 // guests.push(add3);
 // for (let i = 0; i < guests.length; i++) {
@@ -106,7 +106,7 @@ import { log } from "console";
 
 // Q/17
 
-// let guests:string = ["Alice", "Bob", "Charlie", "David"];
+// let guests:string[] = ["Alice", "Bob", "Charlie", "David"];
 
 // while (guests.length > 2) {
 //   let removedGuest = guests.pop();
@@ -121,7 +121,7 @@ import { log } from "console";
 // console.log("Guest list is now empty:", guests);
 
 // Q/18
-// const places:string = ['Karachi','Lahore','Quetta','Aptabad','Islamabad']
+// const places:string[] = ['Karachi','Lahore','Quetta','Aptabad','Islamabad']
 // places.forEach((data)=>{
 //     console.log(data);
 
@@ -139,11 +139,11 @@ import { log } from "console";
 
 // Q/19
 
-//  let guests:string = ["Alice", "Bob", "Charlie", "David"];
+//  let guests:string[] = ["Alice", "Bob", "Charlie", "David"];
 // console.log(`you are invited ${guests.length} persons `);
 
 // Q/20
-// const places:string = ['Karachi','Lahore','Quetta','Aptabad','Islamabad']
+// const places:string[] = ['Karachi','Lahore','Quetta','Aptabad','Islamabad']
 // places.forEach((data)=>{
 //     console.log(data);
 
@@ -275,7 +275,7 @@ import { log } from "console";
 // }
 
 // Q/29
-// const favouritefruit:string =['Mango','Banana','Apple']
+// const favouritefruit:string[] =['Mango','Banana','Apple']
 // if (favouritefruit.includes('Mango')) {
 //     console.log('This is my Favourite Fruit');
 
@@ -299,7 +299,7 @@ import { log } from "console";
 
 // Q/30
 
-// const usernames:string = ['Admin','ALI','Kareem','Owais','Bilal']
+// const usernames:string[] = ['Admin','ALI','Kareem','Owais','Bilal']
 // for(let i =0; i<usernames.length;i++){
 //     if(usernames[i] == 'Admin'){
 //         console.log("Hello admin, would you like to see a status report?");
@@ -319,7 +319,7 @@ import { log } from "console";
 // }
 
 // Q/32
-//  const current_users:string = ['Ali','Naeem','Sarim','Owais','Bilal']
+//  const current_users:string[] = ['Ali','Naeem','Sarim','Owais','Bilal']
 //  const new_users = ['Asad','Ali','Ubaid','Qasim','Owais']
 // for(let i = 0; i<new_users.length;i++){
 //     if (current_users.includes(new_users[i])) {
@@ -351,14 +351,14 @@ import { log } from "console";
 
 // Q/34
 
-// let pizzas:string = ['Pizza Point','Pizza Max','Pizza Hut']
+// let pizzas:string[] = ['Pizza Point','Pizza Max','Pizza Hut']
 // for(let i=0;i<pizzas.length;i++){
 //     console.log(`I like ${pizzas[i]} of pizza`);
 // }
 // console.log('I like really pizza');
 
 // // Q/35
-// const animals:string = ['Lion','Tiger','Leopard']
+// const animals:string[] = ['Lion','Tiger','Leopard']
 
 // for(let i=0;i<animals.length;i++){
 //     console.log(`A ${animals[i]} is a dangerous animal`);
@@ -374,7 +374,7 @@ import { log } from "console";
 
 // Q/37
 
-// let make_shirt:string = (size:string = 'large',sms:string ='I love Typescript')=>{
+// let make_shirt = (size:string = 'large',sms:string ='I love Typescript')=>{
 // console.log(`Size : ${size} | Message : ${sms}`);
 // }
 // // large shirt
@@ -508,3 +508,6 @@ import { log } from "console";
 // };
 // const mycar = createcar('toyota','corolla','color','blue')
 // console.log(mycar);
+
+
+

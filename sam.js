@@ -3,36 +3,32 @@
 // Download Compelted
 Object.defineProperty(exports, "__esModule", { value: true });
 // Q/02
-// let Nme = "sameer";
+// let Nme:string = "sameer";
 // console.log(Nme, "would you like to learn some Python today?");
 // Q/3
-// let Nme = "owAIs";
-// let lowerNme = Nme.toLowerCase();
+// let Nme:string = "owAIs";
+// let lowerNme:string = Nme.toLowerCase();
 // console.log(lowerNme);
-// let upperNme = Nme.toUpperCase();
+// let upperNme:string = Nme.toUpperCase();
 // console.log(upperNme);
-// let title = Nme.slice(0,1).toUpperCase()
-// let title2 = Nme.slice(1).toLowerCase()
-// let sum = title+ title2
-// console.log(sum);
 // Q/4
-// var Nme = "Albert Einstein";
-// var qoute = " “A person who never made a mistake never tried anything new";
+// var Nme:string = "Albert Einstein";
+// var qoute :string = " “A person who never made a mistake never tried anything new";
 // console.log(Nme, "once said", qoute);
 // Q/5
-// var Nme = "Albert Einstein";
-// var qoute = " “A person who never made a mistake never tried anything new";
+// var Nme:string = "Albert Einstein";
+// var qoute:string = " “A person who never made a mistake never tried anything new";
 // console.log(Nme, "once said", qoute);
 // Q/6
-// const Nme = "\t\n  owais \t\n";
+// const Nme:string = "\t\n  owais \t\n";
 // console.log("with whitespace:", Nme);
-// const outspace = Nme.trim();
+// const outspace:string = Nme.trim();
 // console.log("without whitespace:", outspace);
 // Q/7
-// let sum = 8 + 8;
-// let sub = sum - 8;
-// let mult = sub * 8;
-// let divid = mult / 8;
+// let sum:number = 8 + 8;
+// let sub:number = sum - 8;
+// let mult:number = sub * 8;
+// let divid:number = mult / 8;
 // console.log(divid);
 // Q/8
 // console.log(4 + 4);
@@ -43,48 +39,49 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // let favouriteNum = 7;
 // console.log("My fourite number is :", favouriteNum);
 // Q/10
-// End me dekhe ge
+// Author :[Muhammad Owais Khilji]
+// Date   : [16 feb 2024] 
 // Q/11
-// let arr = ["farhan", "asad", "faizan"];
+// let arr:string = ["farhan", "asad", "faizan"];
 // for (let i = 0; i < arr.length; i++) {
 //   console.log(arr[i]);
 // }
 // Q/12
-// let arr = ["farhan", "asad", "faizan"];
+// let arr:string = ["farhan", "asad", "faizan"];
 // for (let i = 0; i < arr.length; i++) {
 //   console.log(`Hello ${arr[i]} How are you?`);
 // }
 // // Q/13
-// let arr = ["Honda", "Suzuki", "Superstar"];
+// let arr:string = ["Honda", "Suzuki", "Superstar"];
 // for (let i = 0; i < arr.length; i++) {
 //   console.log(`I would like to own ${arr[i]} bike`);
 // }
 // Q/14
-// let guests = ["Ali", "Ubaid", "Qasim"];
+// let guests:string = ["Ali", "Ubaid", "Qasim"];
 // for (let i = 0; i < guests.length; i++) {
 //   console.log(` I invite you to dinner ${guests[i]} `);
 // }
 // Q/15
-// let guests = ["Ali", "Ubaid", "Qasim"];
-// let removeguest = guests.splice(1, 1);
-// let addguest = "saleem";
+// let guests:string = ["Ali", "Ubaid", "Qasim"];
+// let removeguest:string = guests.splice(1, 1);
+// let addguest:string = "saleem";
 // guests.push(addguest);
 // for (let i = 0; i < guests.length; i++) {
 //   console.log(` I invite you to dinner ${guests[i]} `);
 // }
 //  Q/16
-// let guests = ["Ali", "Ubaid", "Qasim"];
-// let add = "owais";
+// let guests:string = ["Ali", "Ubaid", "Qasim"];
+// let add:string = "owais";
 // guests.unshift(add);
-// let add2 = "kareem";
+// let add2:string = "kareem";
 // let removeguest = guests.splice(2, 0, add2);
-// let add3 = "saleem";
+// let add3:string = "saleem";
 // guests.push(add3);
 // for (let i = 0; i < guests.length; i++) {
 //   console.log(`  you found a bigger dinner table. ${guests[i]} `);
 // }
 // Q/17
-// let guests = ["Alice", "Bob", "Charlie", "David"];
+// let guests:string = ["Alice", "Bob", "Charlie", "David"];
 // while (guests.length > 2) {
 //   let removedGuest = guests.pop();
 //   console.log("Sorry " + removedGuest + ", I can't invite you to dinner.");
@@ -95,7 +92,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // guests.splice(0, guests.length);
 // console.log("Guest list is now empty:", guests);
 // Q/18
-// const places = ['Karachi','Lahore','Quetta','Aptabad','Islamabad']
+// const places:string = ['Karachi','Lahore','Quetta','Aptabad','Islamabad']
 // places.forEach((data)=>{
 //     console.log(data);
 // })
@@ -108,10 +105,10 @@ Object.defineProperty(exports, "__esModule", { value: true });
 //     console.log(data);
 // })
 // Q/19
-//  let guests = ["Alice", "Bob", "Charlie", "David"];
+//  let guests:string = ["Alice", "Bob", "Charlie", "David"];
 // console.log(`you are invited ${guests.length} persons `);
 // Q/20
-// const places = ['Karachi','Lahore','Quetta','Aptabad','Islamabad']
+// const places:string = ['Karachi','Lahore','Quetta','Aptabad','Islamabad']
 // places.forEach((data)=>{
 //     console.log(data);
 // Q/21
@@ -128,7 +125,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // console.log(num[7]);//undefined
 // console.log(num[5]);defined
 // Q/23
-// let Name = "Owais";
+// let Name:string = "Owais";
 // Condition no 01
 // console.log(Name == 'Owais');
 // Condition no 02
@@ -150,22 +147,22 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // Condition no 10
 // console.log(Name.length == 10);
 // Q/24
-// let str1 = "hello";
-// let str2 = "world";
-// let str3 = "hello";
+// let str1:string = "hello";
+// let str2:string = "world";
+// let str3:string = "hello";
 // // Equality test using ==
 // console.log( str1 == str2);  //  false
 // console.log( str1 == str3);  // true
-// let str1 = "HELLO";
-// let str2 = "hello";
-// let str3 = "Hello";
+// let str1:string = "HELLO";
+// let str2:string = "hello";
+// let str3:string = "Hello";
 //  //tolowerCase test using==
 // console.log( str1.toLowerCase() == str2)// true
 // console.log( str1 == str3);  //false
-// let a = 5;
-// let b = 10;
-// let c = 15;
-// let d = 5;
+// let a:number = 5;
+// let b:number = 10;
+// let c:number = 15;
+// let d:number = 5;
 //  Numerical and &&,||  test usinf ==
 // console.log(a == d && a !== b);
 // console.log(b < c && b > a);
@@ -176,7 +173,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // console.log(num.includes(3));
 // console.log(num.includes(8));
 // Q/25
-// const Aelian_color = "yellow";
+// const Aelian_color:string = "yellow";
 // if(Aelian_color == 'yellow'){
 //     console.log('the player just earned 5 points.');
 // }
@@ -184,7 +181,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 //     console.log('Aelian_color is not yellw');
 // }
 // Q/26
-// const Aelian_color = "green";
+// const Aelian_color:string = "green";
 // if(Aelian_color == 'green'){
 //     console.log('the player just earned 5 points.');
 // }
@@ -192,7 +189,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 //     console.log('the player just earned 10 points.');
 // }
 // Q/27
-// let alien_color = 'green';
+// let alien_color:string = 'green';
 // if (alien_color === 'green') {
 //     console.log("Player earned 5 points for shooting the green alien!");
 // } else if (alien_color === 'yellow') {
@@ -201,7 +198,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 //     console.log("Player earned 15 points for shooting the red alien!");
 // }
 // Q/28
-// const Age_man = 2;
+// const Age_man:number = 2;
 // if(Age_man > 1){
 //     console.log('the person is a baby.');
 // }
@@ -220,12 +217,12 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // if(Age_man4 < 65){
 //     console.log('the person is a adult.');
 // }
-// const Age_man5 = 65;
+// const Age_man5:number = 65;
 // if (Age_man5 == 65 || Age_man5 <66 ) {
 //   console.log("the person is a elder.");
 // }
 // Q/29
-// const favouritefruit =['Mango','Banana','Apple']
+// const favouritefruit:string =['Mango','Banana','Apple']
 // if (favouritefruit.includes('Mango')) {
 //     console.log('This is my Favourite Fruit');
 // }
@@ -242,7 +239,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 //     console.log('This is my Favourite Fruit');
 // }
 // Q/30
-// const usernames = ['Admin','ALI','Kareem','Owais','Bilal']
+// const usernames:string = ['Admin','ALI','Kareem','Owais','Bilal']
 // for(let i =0; i<usernames.length;i++){
 //     if(usernames[i] == 'Admin'){
 //         console.log("Hello admin, would you like to see a status report?");
@@ -252,12 +249,12 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // }
 // }
 // Q/31
-// const usernames =[]
+// let usernames =[]
 // if (usernames.length == 0) {
 //     console.log('We need to find some users');
 // }
 // Q/32
-//  const current_users = ['Ali','Naeem','Sarim','Owais','Bilal']
+//  const current_users:string = ['Ali','Naeem','Sarim','Owais','Bilal']
 //  const new_users = ['Asad','Ali','Ubaid','Qasim','Owais']
 // for(let i = 0; i<new_users.length;i++){
 //     if (current_users.includes(new_users[i])) {
@@ -284,24 +281,24 @@ Object.defineProperty(exports, "__esModule", { value: true });
 //   console.log(`${positions[i]}${ord}`);
 // }
 // Q/34
-// let pizzas = ['Pizza Point','Pizza Max','Pizza Hut']
+// let pizzas:string = ['Pizza Point','Pizza Max','Pizza Hut']
 // for(let i=0;i<pizzas.length;i++){
 //     console.log(`I like ${pizzas[i]} of pizza`);
 // }
 // console.log('I like really pizza');
 // // Q/35
-// const animals = ['Lion','Tiger','Leopard']
+// const animals:string = ['Lion','Tiger','Leopard']
 // for(let i=0;i<animals.length;i++){
 //     console.log(`A ${animals[i]} is a dangerous animal`);
 // }
 // console.log('These three animals are predatory animals');
 // Q/36
-// let make_shirt = (size,sms)=>{
+// let make_shirt = (size:string,sms:string)=>{
 // console.log(`Size : ${size} | Message : ${sms}`);
 // }
 // make_shirt('24inch','Hello')
 // Q/37
-// let make_shirt = (size = 'large',sms ='I love Typescript')=>{
+// let make_shirt:string = (size:string = 'large',sms:string ='I love Typescript')=>{
 // console.log(`Size : ${size} | Message : ${sms}`);
 // }
 // // large shirt
@@ -311,14 +308,14 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // // small shirt
 // make_shirt('Small','I love Pathon')
 // Q/38
-// let describe_city =(city , country='in pakistan')=>{
+// let describe_city =(city:string , country:string ='in pakistan')=>{
 //     console.log(` ${city} ${country}`)
 // }
 // describe_city('Karachi')
 // describe_city('Lahore')
 // describe_city('Islamabad',' is a beautifull city of pakistan')
 // Q/39
-// let city_country = (city,country)=>{
+// let city_country = (city:string,country:string)=>{
 //     return `${city} ${country}`
 // }
 // let city1 = city_country('karachi', 'pakistan')
@@ -397,21 +394,42 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // sendwich('butter','swiss')
 // sendwich('double butter','jelly')
 // Q/45
-var createcar = function (manufacture, model) {
-    var argu = [];
-    for (var _i = 2; _i < arguments.length; _i++) {
-        argu[_i - 2] = arguments[_i];
+// const createcar = (manufacture, model, ...argu) => {
+//     const car = {
+//         manufacture:`${manufacture}`, 
+//         model:`${model}`
+//     };
+//     for (let i = 0; i < argu.length; i+=2) {
+//         const key = argu[i];
+//         const value = argu[i + 1];
+//         car[key] = value;
+//     }
+//     return car
+// };
+// const mycar = createcar('toyota','corolla','color','blue')
+// console.log(mycar);
+var inquirer = require('inquirer');
+inquirer.prompt([
+    {
+        type: 'input',
+        name: 'name',
+        message: "What's your name?"
+    },
+    {
+        type: 'number',
+        name: 'age',
+        message: "How old are you?"
+    },
+    {
+        type: 'list',
+        name: 'color',
+        message: "What's your favorite color?",
+        choices: ['Red', 'Blue', 'Green', 'Yellow']
     }
-    var car = {
-        manufacture: "".concat(manufacture),
-        model: "".concat(model)
-    };
-    for (var i = 0; i < argu.length; i += 2) {
-        var key = argu[i];
-        var value = argu[i + 1];
-        car[key] = value;
-    }
-    return car;
-};
-var mycar = createcar('toyota', 'corolla', 'color', 'blue');
-console.log(mycar);
+])
+    .then(function (data) {
+    console.log('User Info:');
+    console.log('Name:', data.name);
+    console.log('Age:', data.age);
+    console.log('Favorite Color:', data.color);
+});
